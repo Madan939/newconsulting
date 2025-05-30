@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
-import { Card } from "antd";
 import Ribbon from "@/components/Ribbon";
+import Link from "next/link";
 const images = [
   "/assets/images/team/1.png",
   "/assets/images/team/2.png",
@@ -52,19 +52,19 @@ export default function Example() {
     <>
       <Ribbon name="Team" des="" />
 
-      <section className="pb-[90px] lg:pt-[60px] md:pt-[52px]">
+      <section className="">
         {/*About Pracas */}
         <div className="max-w-[1180px] flex justify-center items-center  mx-auto px-6  ">
-          <Card className=" !bg-gray-100 text-black w-full border border-gray-300 md:p-0">
-            <div className="flex gap-8 flex-col sm:flex-row w-full h-full ">
+          <div className=" bg-[#efefef] rounded-lg text-black w-full border border-gray-300 md:p-0 ">
+            <div className="flex flex-col sm:flex-row w-full h-full py-6 md:px-10 px-3">
               {/*Pracas Image */}
-              <div className=" h-[390px] flex flex-col items-center justify-center pl-6 md:p-0 basis-full w-full sm:basis-[30%] py-6 ">
+              <div className=" h-[390px] flex flex-col items-center justify-center  md:p-0 basis-full w-full sm:basis-[30%] py-6 ">
                 <Image
                   src={pracasImage}
                   alt="Pracas Upreti"
                   width={200}
                   height={200}
-                  className="w-[67%] mx-auto "
+                  className="mx-auto"
                 />
                 <br />
                 <h2 className="font-bold text-2xl text-center">PRACAS</h2>
@@ -74,12 +74,12 @@ export default function Example() {
 
               {/* About pracas */}
 
-              <div className="lex-1 flex flex-col justify-start px-6 pl-10 md:px-0  text-center sm:text-start basis-[70%]">
-                <h1 className="text-3xl font-roboto font-semibold">
+              <div className="flex-1 flex flex-col justify-start basis-[70%]">
+                <h1 className="text-3xl font-roboto font-semibold max-lg:text-center">
                   About PRACAS
                 </h1>
                 <br />
-                <p className=" text-gray-900 font-roboto ">
+                <p className=" text-gray-900  text-[14px] ">
                   Pracas Upreti&apos;s journey from a startup founder to a
                   technology-driven change-maker in Biratnagar, Nepal,
                   exemplifies the profound impact that individuals can have when
@@ -104,29 +104,48 @@ export default function Example() {
                 </p>
                 {/*Soical Media icons */}
                 <br />
-                <div className="flex text-center sm:text-start flex-col gap-3">
+                <div className="flex  flex-col gap-3">
                   <p>Follow Pracas on social media</p>
+                  <div className="flex gap-3 items-center">
+                    <Link href="https://t.me/SRIYOG">
+                      <Image
+                        src={"/assets/icons/telegram1.svg"}
+                        width={20}
+                        height={20}
+                        alt="Linkedin Image"
+                      />
+                    </Link>
 
-                  <div>
-                    <Image
-                      src={"/assets/icons/linkedin.svg"}
-                      width={25}
-                      height={25}
-                      alt="Linkedin Image"
-                    />
+                    <Link href='https://x.com/TheSRIYOG'>
+                      <Image
+                        src={"/assets/icons/tweeter.svg"}
+                        width={20}
+                        height={20}
+                        alt="Linkedin Image"
+                      />
+                    </Link>
+
+                    <Link href='https://np.linkedin.com/company/sriyogdotcom'>
+                      <Image
+                        src={"/assets/icons/linkedin.svg"}
+                        width={20}
+                        height={20}
+                        alt="Linkedin Image"
+                      />
+                    </Link>
                   </div>
                 </div>
               </div>
             </div>
-          </Card>
+          </div>
         </div>
 
         <div className="max-w-[1180px] mx-auto py-14 px-6">
           <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 ">
             {images.map((img, index) => (
-              <Card
+              <div
                 key={index}
-                className="!bg-gray-100 text-black border border-gray-300 p-6 flex flex-col items-center min-h-[320px] "
+                className="!bg-gray-100 text-black border border-gray-300 p-6 flex flex-col items-center min-h-[320px] rounded-lg "
               >
                 <Image
                   src={img}
@@ -141,7 +160,7 @@ export default function Example() {
                 <p className="text-sm text-center text-gray-600 font-roboto">
                   {roles[index]}
                 </p>
-              </Card>
+              </div>
             ))}
           </div>
         </div>

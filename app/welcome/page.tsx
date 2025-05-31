@@ -27,7 +27,7 @@ const Welcome = () => {
             </div>
           </div>
           <div className="px-10 max-md:px-0 max-sm:px-0">
-            <p className="text-base  ">
+            <div className="text-base  ">
               Established on June 14, 2018, SRIYOG Consulting Pvt. Ltd. is a
               premier Managed IT Services provider based in Kamalpokhari,
               Kathmandu, Nepal. We specialize in delivering innovative,
@@ -59,26 +59,38 @@ const Welcome = () => {
               gaps and catalyze progress, I always tried to embark on a mission
               to leverage digital solutions to address local challenges and
               foster economic development.
-              <br />
-              <br />
-              My vision was not merely to create successful businesses but to
-              effect meaningful change in my community where I have contributed
-              in more than 500 clients in my entire career spreading 15
-              countries in the world, developing their website, optimizing
-              search results, developing mobile applications, managing social
-              media, growing their digital presence, providing them a very
-              reliable corporate business email solutions and also providing
-              dedicated Information Technology Consulting Solution.
-              <br />
-              <br />
-              Having good practices of Information Technology can grow the
-              business faster, gives a great digital presence, saves expensive
-              man hours, optimize workforce, manages data, its privacy and also
-              saves reputation of any organisation for any forthcoming digital
-              disasters like data loss, hacking, identity theft, ransomware
-              attacks and other various issues which we may face anytime,
-              anywhere.
-            </p>
+              <br /><br />
+              <div className="grid grid-cols-1 sm:grid-cols-5 place-content-between gap-8 place-items-center mb-3">
+                <p className="col-span-3">
+                  My vision was not merely to create successful businesses but
+                  to effect meaningful change in my community where I have
+                  contributed in more than 500 clients in my entire career
+                  spreading 15 countries in the world, developing their website,
+                  optimizing search results, developing mobile applications,
+                  managing social media, growing their digital presence,
+                  providing them a very reliable corporate business email
+                  solutions and also providing dedicated Information Technology
+                  Consulting Solution.
+                  <br />
+                  <br />
+                  Having good practices of Information Technology can grow the
+                  business faster, gives a great digital presence, saves
+                  expensive man hours, optimize workforce, manages data, its
+                  privacy and also saves reputation of any organisation for any
+                  forthcoming digital disasters like data loss, hacking,
+                  identity theft, ransomware attacks and other various issues
+                  which we may face anytime, anywhere.
+                </p>
+                <div className=" h-76 relative  w-full col-span-2">
+                  <Image
+                    src="/assets/images/about/pracas_large.png"
+                    alt="About Us"
+                    fill
+                    className="w-full h-auto object-contain border"
+                  />
+                </div>
+              </div>
+            </div>
           </div>
 
           <div className="relative w-40 h-40  mx-10 max-md:mx-0 ">

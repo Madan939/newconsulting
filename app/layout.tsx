@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     siteName: "SRIYOG Consulting",
     images: [
       {
-        url: "https://www.sriyogconsulting.com/assets/images/og/og-image.jpg",
+        url: "https://newconsulting.vercel.app/assets/images/og/og.jpg",
         width: 1200,
         height: 630,
         alt: "SRIYOG Consulting OG Image",

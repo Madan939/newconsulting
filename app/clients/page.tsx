@@ -8,11 +8,14 @@ const clientsData = [
     id: 1,
     title: "TransNepal Freight Services Pvt. Ltd.",
     date: " 04 Feb 2013 ",
-    service: [(
+    service: [
       <>
-      <Link href='https://transnepaldryport.com/' target="_blank">Website</Link>
-      </>
-    ), "Business eMail"],
+        <Link href="https://transnepaldryport.com/" target="_blank">
+          Website
+        </Link>
+      </>,
+      "Business eMail",
+    ],
     image: "/assets/images/clients/transnepal.png",
     description:
       "TransNepal Freight Services Pvt. Ltd., was incorporated in the year 2002 under the Nepalese Company Act and started operation from 17th April 2002 by taking over the operation and management of the two ICDs’ at Biratnagar and Bhairahawa",
@@ -23,11 +26,13 @@ const clientsData = [
     id: 2,
     title: "CVDs Nepal",
     date: " 13 Sep 2007 ",
-    service: [(
+    service: [
       <>
-      <Link href='https://cvdsnepal.org.np/' target="_blank">Website</Link>
-      </>
-    )],
+        <Link href="https://cvdsnepal.org.np/" target="_blank">
+          Website
+        </Link>
+      </>,
+    ],
     image: "/assets/images/clients/cvds-nepal.png",
     description:
       "People with disability are the most vulnerable and marginalized group of people. They live in isolation, segregation, disparagement, poverty and virtual dependence on charity and even pity. They are the victim of the community misconception and stigmas denying them of their inalienable and recognized rights. As a result, they shut themselves from the world and they underestimate themselves thinking that they do not fit in the society like other able-bodied children.",
@@ -47,11 +52,14 @@ const clientsData = [
     id: 7,
     title: "Purbanchal University",
     date: " 04 Feb 2013 ",
-    service: [(
+    service: [
       <>
-      <Link href='https://pusom.edu.np/about-us' target="_blank">Website</Link>
-      </>
-    ), "Business eMail"],
+        <Link href="https://pusom.edu.np/about-us" target="_blank">
+          Website
+        </Link>
+      </>,
+      "Business eMail",
+    ],
     image: "/assets/images/clients/4.png",
     description:
       "Purbanchal University, School of Management (PUSOM) is established by the Purbanchal University Act 1994 with a mission to establish as a leading university of academic excellence. The Faculty of Management (FOM) of Purbanchal University offers.....",
@@ -82,11 +90,14 @@ const clientsData = [
   {
     id: 10,
     date: " 04 Feb 2013 ",
-    service: [(
+    service: [
       <>
-      <Link href='https://sudarshansecurity.com.np/' target="_blank">Website</Link>
-      </>
-    ), "Business eMail"],
+        <Link href="https://sudarshansecurity.com.np/" target="_blank">
+          Website
+        </Link>
+      </>,
+      "Business eMail",
+    ],
     image: "/assets/images/clients/7.png",
     title: "Sudarshan Security Services",
     description:
@@ -96,11 +107,14 @@ const clientsData = [
   {
     id: 11,
     date: " 04 Feb 2013 ",
-    service: [(
+    service: [
       <>
-      <Link href='https://kopilaclinic.com.np/' target="_blank">Website</Link>
-      </>
-    ), "Business eMail"],
+        <Link href="https://kopilaclinic.com.np/" target="_blank">
+          Website
+        </Link>
+      </>,
+      "Business eMail",
+    ],
     image: "/assets/images/clients/8.png",
     title: "Kopila Clinic",
     description:
@@ -110,11 +124,14 @@ const clientsData = [
   {
     id: 12,
     date: " 04 Feb 2013 ",
-    service: [(
+    service: [
       <>
-      <Link href='https://drpriyankasclinic.com/' target="_blank">Website</Link>
-      </>
-    ), "Business eMail"],
+        <Link href="https://drpriyankasclinic.com/" target="_blank">
+          Website
+        </Link>
+      </>,
+      "Business eMail",
+    ],
     image: "/assets/images/clients/9.png",
     title: "Dr. Priyanka's Clinic",
     description:
@@ -133,23 +150,21 @@ const clientsData = [
   },
   {
     id: 14,
-    title: "General Plastic Industries",
+    title: "CSK Nepal",
     date: " 04 Feb 2013 ",
-    service: [(
-      <>
-      <Link href='https://generalplasticindustries.com/' target="_blank">Website</Link>
-      </>
-    ), "Business eMail"],
+    service: [
+      "Digital Marketing",
+    ],
     image: "/assets/images/clients/11.png",
     description:
-      "At General Plastic Industries we are committed to helping our customers by providing quality products, so that the customer can stop thinking about wastages and rejections and can focus on building their brand.",
-    path: "https://generalplasticindustries.com/",
+      "Chandra Shiva Khadya Udhyog is 6 decades old organisation, producing edible oil and rice products from Koshi Province Nepal.",
+    
   },
   {
     id: 15,
     title: "Arogya Bhawan Works Pvt. Ltd.",
     date: " 04 Feb 2013 ",
-    service: [ "Business eMail"],
+    service: ["Business eMail"],
     image: "/assets/images/clients/12.png",
     description:
       "In the year 1925 AD Royal Ayurvedic Physician Mr. Shiva Nath Rimal and his younger brother Mr. Narendra Nath Rimal established this organization with the objective to cure and maintain the holistic Ayurvedic system in the center of the Himalayan range.",
@@ -159,11 +174,14 @@ const clientsData = [
     id: 16,
     title: "Advance Pain Specialist Clinic",
     date: " 04 Feb 2013 ",
-    service: [(
+    service: [
       <>
-      <Link href='https://painclinic.com.np/' target="_blank">Website</Link>
-      </>
-    ), "Business eMail"],
+        <Link href="https://painclinic.com.np/" target="_blank">
+          Website
+        </Link>
+      </>,
+      "Business eMail",
+    ],
     image: "/assets/images/clients/14.png",
     description:
       "At Advance Pain Specialist Clinic, we strive to transform lives by helping individuals overcome the limitations of pain and embrace a healthier, happier future.",
@@ -173,11 +191,13 @@ const clientsData = [
     id: 17,
     title: "Gravure Link Nepal Pvt. Ltd",
     date: " 04 Feb 2013 ",
-    service: [(
+    service: [
       <>
-      <Link href='https://gravelink.com.np/' target="_blank">Website</Link>
-      </>
-    )],
+        <Link href="https://gravelink.com.np/" target="_blank">
+          Website
+        </Link>
+      </>,
+    ],
     image: "/assets/images/clients/15.jpg",
     description:
       "Gravure Link Nepal Pvt. Ltd. A leader in the printing sector and producing Rotogravure Electronic Printing Cylinders of the highest caliber. We serve many renowned companies around the country by offering specialized, precised,",
@@ -187,11 +207,14 @@ const clientsData = [
     id: 18,
     title: "BKM Masala",
     date: " 04 Feb 2013 ",
-    service: [(
+    service: [
       <>
-      <Link href='https://bkmasala.com.np/' target="_blank">Website</Link>
-      </>
-    ),"Business eMail","Digital Marketing"],
+        <Link href="https://bkmasala.com.np/" target="_blank">
+          Website
+        </Link>
+      </>,
+      "Digital Marketing",
+    ],
     image: "/assets/images/clients/18.png",
     description:
       "BK Masala company was established in 2057 BS ( 2001 AD ) to provide the best spices in Nepal. The company has been providing quality and super fine masala from 17 years. Its philosophy is to provide best quality products.",
@@ -201,18 +224,54 @@ const clientsData = [
     id: 19,
     title: "Sundarshan Argo Resort",
     date: " 04 Feb 2013 ",
-    service: [(
+    service: [
       <>
-      <Link href='https://sudarshanagroresort.com.np/' target="_blank">Website</Link>
-      </>
-    ),"Business eMail"],
+        <Link href="https://sudarshanagroresort.com.np/" target="_blank">
+          Website
+        </Link>
+      </>,
+      "Business eMail",
+    ],
     image: "/assets/images/clients/19.png",
     description:
       "Welcome to Sudarshan Park and Resort, your ultimate destination for relaxation and cultural immersion in Nepali style. Nestled in the heart of lush greenery, our resort offers a serene escape where you can enjoy authentic Nepali cuisine, comfortable accommodations, and vibrant cultural experiences.",
     path: "https://sudarshanagroresort.com.np/",
   },
+  {
+    id: 20,
+    title: "Kisanpedia",
+    date: " 04 Feb 2013 ",
+    service: [
+      <>
+        <Link href="https://kisanpedia.com/" target="_blank">
+          Website
+        </Link>
+      </>,
+      "Business eMail",
+    ],
+    image: "/assets/images/clients/kisanpedia-LOGO.png",
+    description:
+      "Kisanpedia is agri-based start-up and is providing 'One stop' agriculture solution to the farmers. We work directly with the farmers or commercial farms to bring an impact on the lives of farmers by helping them in increasing their crop yield, reduce cost of production, and help grow better quality crops to get better price.",
+    path: "https://kisanpedia.com/",
+  },
+  {
+    id: 19,
+    title: "Lumanti Group",
+    date: " 04 Feb 2013 ",
+    service: [
+      <>
+        <Link href="https://lumantigroup.com/" target="_blank">
+          Website
+        </Link>
+      </>,
+      "Business eMail",
+    ],
+    image: "/assets/images/clients/lumanti-group-logo.png",
+    description:
+      "Lumanti Group is a trusted name in Nepal, operating across multiple industries, including manufacturing, trading, hospitality, consulting, education, and retail. With 14 years of service, 9 companies, and 35+ staff, we have built a strong reputation for excellence. Committed to quality and customer satisfaction, we strive to bring the best products and services to the Nepali market.",
+    path: "https://lumantigroup.com/",
+  },
 ];
-
 
 export const metadata: Metadata = {
   title: "Our Clients | SRIYOG Consulting",
@@ -220,16 +279,18 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
-      <Ribbon name="Our Client's" des="" />
+      <Ribbon name="Our Clients" des="" />
       <section className="lg:w-[1180px] max-lg:container max-lg:px-3 mx-auto mb-[45px]">
         <h1 className="text-[32px] text-[#055D59] font-semibold text-center mb-1">
-          Drive your own revolution with SRIYOG
+          Organizations driving their revolution with SRIYOG Consulting
+          Organizations driving their revolution with SRIYOG Consulting
         </h1>
         <p className="max-w-[800px] mx-auto text-center mb-[45px]">
-          Our open source experts work with your organization to implement a
-          cloud strategy to evolve at a pace that works for you. We believethat
-          sharing ideas and building a strategy together is a better approach
-          for your long-term success than following a prescribed plan.
+          Our IT experts work with your organization to implement a tech
+          strategy to evolve at a pace that works to uplift your organization
+          digitally. We believe that sharing ideas and building a strategy
+          together is a better approach for your long-term success which is
+          packaged in a subscription plan.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-content-between gap-6">
           {clientsData.map((item, idx) => (
@@ -237,7 +298,7 @@ export default function Page() {
               key={idx + 1}
               className="relative text-gray-700 border-[#dbdbdb] border-[1.5px] rounded-lg px-4 lg:h-[460px] sm:h-[480px] h-auto  hover:shadow-lg transition duration-300 ease-in-out"
             >
-              <section className=" relative h-32 w-full mb-2 border-b border-[#dbdbdb]">
+              <section className=" relative h-48 md:h-32 w-full mb-2 border-b border-[#dbdbdb]">
                 <Image
                   src={item.image}
                   alt={item.title}
@@ -245,13 +306,15 @@ export default function Page() {
                   fill
                 />
               </section>
-              <p className="font-semibold mb-2 md:text-xl h-12">{item.title}</p>
-              <p className=" mb-2 md:h-24 h-32 ">{item.description.slice(0, 160)}...</p>
-              <p className="font-semibold mb-2 mt-8">Services offered</p>
-              <div className="flex gap-3  flex-wrap">
-                {
-                
-                item.service &&
+              <p className="font-semibold mb-2 text-xl h-12">{item.title}</p>
+              <p className=" mb-2 md:h-24 h-32 ">
+                {item.description.slice(0, 160)}...
+              </p>
+              <p className="font-semibold mb-2 md:mt-12 ">
+                Services offered
+              </p>
+              <div className="flex gap-3  flex-wrap max-lg:mb-4">
+                {item.service &&
                   item.service.map((data, idx) => (
                     <div key={idx + 1} className="border px-2 py-1 rounded-md ">
                       {data}
@@ -261,7 +324,6 @@ export default function Page() {
               {/* <p className="border-b pb-2 border-[#dbdbdb]">
                 Service Started Date : {item.date}
               </p> */}
-              
             </div>
           ))}
         </div>

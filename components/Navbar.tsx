@@ -55,7 +55,7 @@ export default function Navbar() {
               ))}
               <li>
                 <Link
-                  href="/"
+                  href="/quote"
                   className="bg-[#0D5D59] px-3 text-white font-semibold rounded-lg p-2 hover:bg-[#2e5250]"
                 >
                   Request a Quote
@@ -65,7 +65,7 @@ export default function Navbar() {
           </div>
           <section className="hidden max-lg:block">
             <div className="flex items-center gap-x-1">
-              <div className="relative h-[50px] w-[50px]">
+              <div className="hidden md:block relative h-[50px] w-[50px]">
                 <Image
                   src="/assets/images/header/notification.svg"
                   alt="notification"
@@ -74,7 +74,7 @@ export default function Navbar() {
                   className="py-3 object-contain"
                 />
               </div>
-              <div className="relative h-[50px] w-[50px]">
+              <div className="hidden md:block relative h-[50px] w-[50px]">
                 <Image
                   src="/assets/images/header/question.svg"
                   alt="query"
@@ -256,7 +256,7 @@ export default function Navbar() {
             ))}
             <li>
               <Link
-                href="/"
+                href="/quote"
                 className="bg-[#0D5D59] px-3 text-white font-semibold rounded-lg p-2 hover:bg-[#2e5250]"
               >
                 Request a Quote

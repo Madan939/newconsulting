@@ -413,7 +413,7 @@ export default function Page() {
                     src={item.img}
                     alt={item.name}
                     fill
-                    className="object-cover p-[2px]"
+                    className="object-contain p-[2px]"
                   />
                 </div>
 

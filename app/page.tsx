@@ -47,7 +47,7 @@ export default function Home() {
   }, []);
   const SampleNextArrow = ({ onClick }: { onClick?: () => void }) => (
     <div
-      className="absolute bottom-[-30px] right-6 z-10 cursor-pointer"
+      className="absolute bottom-[-30px] right-6 max-lg:right-0 z-10 cursor-pointer"
       onClick={onClick}
     >
       <div className="relative h-[50px] w-[50px]">

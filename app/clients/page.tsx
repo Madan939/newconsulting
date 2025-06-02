@@ -143,7 +143,7 @@ const clientsData = [
     date: " 04 Feb 2013 ",
     service: ["Business eMail"],
     image: "/assets/images/clients/10.png",
-    title: "Forum for Rural Women Ardency Development",
+    title: "FORWAD",
     description:
       "By integrating social development with economic support, we are expanding our reach to uplift livelihoods, protect biodiversity, promote agriculture, and extend humanitarian assistance to communities across the country.",
     path: "https://forward.org.np/",
@@ -283,7 +283,6 @@ export default function Page() {
       <section className="lg:w-[1180px] max-lg:container max-lg:px-3 mx-auto mb-[45px]">
         <h1 className="text-[32px] text-[#055D59] font-semibold text-center mb-1">
           Organizations driving their revolution with SRIYOG Consulting
-          Organizations driving their revolution with SRIYOG Consulting
         </h1>
         <p className="max-w-[800px] mx-auto text-center mb-[45px]">
           Our IT experts work with your organization to implement a tech
@@ -296,7 +295,7 @@ export default function Page() {
           {clientsData.map((item, idx) => (
             <div
               key={idx + 1}
-              className="relative text-gray-700 border-[#dbdbdb] border-[1.5px] rounded-lg px-4 lg:h-[460px] sm:h-[480px] h-auto  hover:shadow-lg transition duration-300 ease-in-out"
+              className="relative text-gray-700 shadow-[0_.5rem_1rem_rgba(0,0,0,.15)] rounded-lg px-4 lg:h-[460px] sm:h-[480px] h-auto  hover:shadow-lg transition duration-300 ease-in-out"
             >
               <section className=" relative h-48 md:h-32 w-full mb-2 border-b border-[#dbdbdb]">
                 <Image
